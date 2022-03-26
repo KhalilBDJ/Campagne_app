@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd14fc30d004417a423cfdef2bd9ccf, type: 3}
+  m_Name: UIButtonIdDatabase
+  m_EditorClassIdentifier: 
+  Database:
+    Items:
+    - Category: ARPage
+      Name: 1
+    - Category: ARPage
+      Name: 2
+    - Category: ARPage
+      Name: 3
+    - Category: ARPage
+      Name: 4
+    - Category: ARPage
+      Name: 5
+    - Category: ARPage
+      Name: Arrowdown
+    - Category: ARPage
+      Name: ArrowUp
+    - Category: ARPage
+      Name: NEXT1
+    - Category: ARPage
+      Name: NEXT3
+    - Category: ARPage
+      Name: NEXT4
+    - Category: ARPage
+      Name: NEXT5
+    - Category: Homepage
+      Name: About
+    - Category: Homepage
+      Name: Start
+    - Category: Homepage
+      Name: Survey
+    - Category: None
+      Name: None
+    - Category: Popup
+      Name: Close
+    - Category: Popup
+      Name: No
+    - Category: Popup
+      Name: Yes
+    - Category: Sidebar
+      Name: Experience
+    - Category: Sidebar
+      Name: Home
+    - Category: Sidebar
+      Name: Settings
+    - Category: Sidebar
+      Name: Survey
+    - Category: Survey
+      Name: Close
+    - Category: Survey
+      Name: End
+    - Category: Survey
+      Name: Next
+    - Category: Survey
+      Name: Previous
+    - Category: Survey
+      Name: Restart
+    - Category: Survey
+      Name: Send
+    - Category: Survey
+      Name: Start

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1142824b18ef490e9311385acfe1c486, type: 3}
+  m_Name: StreamIdDatabase
+  m_EditorClassIdentifier: 
+  Database:
+    Items:
+    - Category: Navigation
+      Name: ChangeSceneAction
+    - Category: Navigation
+      Name: OnViewsHidden
+    - Category: Navigation
+      Name: TargetSceneName
+    - Category: Network
+      Name: GetError
+    - Category: Network
+      Name: GetStart
+    - Category: Network
+      Name: GetSuccess
+    - Category: Network
+      Name: PostError
+    - Category: Network
+      Name: PostStart
+    - Category: Network
+      Name: PostSuccess
+    - Category: None
+      Name: None
+    - Category: Scenes
+      Name: ARApp
+    - Category: Scenes
+      Name: Homepage
+    - Category: Scenes
+      Name: None
+    - Category: Scenes
+      Name: OnBoarding
+    - Category: Scenes
+      Name: SplashScreen
+    - Category: Scenes
+      Name: Survey
+    - Category: Survey
+      Name: EndError
+    - Category: Survey
+      Name: EndSuccess
+    - Category: Survey
+      Name: NextError
+    - Category: Survey
+      Name: NextRequest
+    - Category: Survey
+      Name: NextSuccess
+    - Category: TrackedImage
+      Name: CircleAnimEnded
+    - Category: TrackedImage
+      Name: Found
+    - Category: TrackedImage
+      Name: Lost
+    - Category: TrackedImage
+      Name: Targeted
