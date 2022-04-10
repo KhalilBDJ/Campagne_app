@@ -39,19 +39,9 @@ MonoBehaviour:
     - Category: Global
       Name: Sidebar
     - Category: Homepage
-      Name: AboutExplanation
+      Name: 1stPage
     - Category: Homepage
-      Name: AboutTitle
-    - Category: Homepage
-      Name: MainExplanation
-    - Category: Homepage
-      Name: MainLogo
-    - Category: Homepage
-      Name: MainTitle
-    - Category: Homepage
-      Name: SurveyContent
-    - Category: Homepage
-      Name: SurveyTitle
+      Name: Menus
     - Category: None
       Name: None
     - Category: Popup

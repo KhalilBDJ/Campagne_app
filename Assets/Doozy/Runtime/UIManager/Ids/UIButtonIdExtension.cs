@@ -14,8 +14,8 @@ namespace Doozy.Runtime.UIManager.Components
 {
     public partial class UIButton
     {
-        public static IEnumerable<UIButton> GetButtons(UIButtonId.Homepage id) => GetButtons(nameof(UIButtonId.Homepage), id.ToString());
-        public static bool SelectButton(UIButtonId.Homepage id) => SelectButton(nameof(UIButtonId.Homepage), id.ToString());
+        public static IEnumerable<UIButton> GetButtons(UIButtonId.ARPage id) => GetButtons(nameof(UIButtonId.ARPage), id.ToString());
+        public static bool SelectButton(UIButtonId.ARPage id) => SelectButton(nameof(UIButtonId.ARPage), id.ToString());
 
         public static IEnumerable<UIButton> GetButtons(UIButtonId.Popup id) => GetButtons(nameof(UIButtonId.Popup), id.ToString());
         public static bool SelectButton(UIButtonId.Popup id) => SelectButton(nameof(UIButtonId.Popup), id.ToString());
@@ -31,11 +31,14 @@ namespace Doozy.Runtime.UIManager
 {
     public partial class UIButtonId
     {
-        public enum Homepage
+        public enum ARPage
         {
-            About,
-            Start,
-            Survey
+            Arrowdown,
+            ArrowUp,
+            NEXT1,
+            NEXT3,
+            NEXT4,
+            NEXT5
         }
 
         public enum Popup
@@ -55,8 +58,10 @@ namespace Doozy.Runtime.UIManager
         public enum Survey
         {
             Close,
+            End,
             Next,
             Previous,
+            Restart,
             Send,
             Start
         }    

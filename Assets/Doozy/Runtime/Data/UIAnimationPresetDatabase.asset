@@ -15,7 +15,6 @@ MonoBehaviour:
   ShowPresets:
     GroupAnimationType: 0
     Presets:
-    - {fileID: 11400000, guid: a4bf638ba59efac4e8b2ed9068a88389, type: 2}
     - {fileID: 11400000, guid: e913ff960383ef74c83f89937c310784, type: 2}
     - {fileID: 11400000, guid: b80e7e605895cad40b917c497f70774e, type: 2}
     - {fileID: 11400000, guid: 01d4dae03b2776a499cebff3bd3c8eb6, type: 2}
@@ -391,7 +390,6 @@ MonoBehaviour:
     PresetCategories:
     - Category: Back
       Names:
-      - 01
       - 02
       - 03
       - 04

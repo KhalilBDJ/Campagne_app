@@ -15,16 +15,6 @@ MonoBehaviour:
   Database:
     Items:
     - Category: ARPage
-      Name: 1
-    - Category: ARPage
-      Name: 2
-    - Category: ARPage
-      Name: 3
-    - Category: ARPage
-      Name: 4
-    - Category: ARPage
-      Name: 5
-    - Category: ARPage
       Name: Arrowdown
     - Category: ARPage
       Name: ArrowUp
@@ -37,11 +27,11 @@ MonoBehaviour:
     - Category: ARPage
       Name: NEXT5
     - Category: Homepage
-      Name: About
+      Name: Accueil
     - Category: Homepage
-      Name: Start
+      Name: Close
     - Category: Homepage
-      Name: Survey
+      Name: MoreMenu
     - Category: None
       Name: None
     - Category: Popup
