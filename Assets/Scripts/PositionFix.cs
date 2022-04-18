@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class ForceRebuild : MonoBehaviour
+public class PositionFix : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,6 +13,6 @@ public class ForceRebuild : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LayoutRebuilder.ForceRebuildLayoutImmediate(gameObject.GetComponent<RectTransform>());
+        
     }
 }

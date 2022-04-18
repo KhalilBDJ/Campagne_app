@@ -14,13 +14,19 @@ public class Test : MonoBehaviour
         {
             moreButtons.SetActive(true);
             isOpened = true;
-            GetComponentInChildren<TMP_Text>().SetText("- LES OPES");
+            string name = gameObject.GetComponentInChildren<TMP_Text>().text;
+            Debug.Log(name);
+            string newName = name.Replace('+', '-');
+            GetComponentInChildren<TMP_Text>().SetText(newName);
+            Debug.Log(name);
         }
         else
         {
             moreButtons.SetActive(false);
             isOpened = false;
-            GetComponentInChildren<TMP_Text>().SetText("+ LES OPES");
+            string name = gameObject.GetComponentInChildren<TMP_Text>().text;
+            string newName = name.Replace('-', '+');
+            GetComponentInChildren<TMP_Text>().SetText(newName);
         }
     }
 }
