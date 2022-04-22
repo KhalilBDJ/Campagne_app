@@ -14,6 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Database:
     Items:
+    - Category: Accueil
+      Name: MoreMenu
+    - Category: "Activit\xE9s"
+      Name: Activites
+    - Category: "Activit\xE9s"
+      Name: Allos
+    - Category: "Activit\xE9s"
+      Name: KAWAOPES
     - Category: ARPage
       Name: Arrowdown
     - Category: ARPage
@@ -62,3 +70,19 @@ MonoBehaviour:
       Name: Send
     - Category: Survey
       Name: Start
+    - Category: Teams
+      Name: AEI
+    - Category: Teams
+      Name: BDA
+    - Category: Teams
+      Name: BDS
+    - Category: Teams
+      Name: Bureau
+    - Category: Teams
+      Name: Com
+    - Category: Teams
+      Name: Kawa
+    - Category: Teams
+      Name: Partenariat
+    - Category: Teams
+      Name: Soiree

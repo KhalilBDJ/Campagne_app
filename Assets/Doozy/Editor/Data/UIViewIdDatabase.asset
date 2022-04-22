@@ -14,61 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Database:
     Items:
-    - Category: ARPage
-      Name: HOME
-    - Category: ARPage
-      Name: POI1
-    - Category: ARPage
-      Name: POI2
-    - Category: ARPage
-      Name: POI3
-    - Category: ARPage
-      Name: POI4
-    - Category: ARPage
-      Name: POI5
-    - Category: ARPage
-      Name: VIEW1
-    - Category: ARPage
-      Name: VIEW2
-    - Category: ARPage
-      Name: VIEW3
-    - Category: ARPage
-      Name: VIEW4
-    - Category: ARPage
-      Name: VIEW5
-    - Category: Global
-      Name: Sidebar
-    - Category: Homepage
-      Name: 1stPage
-    - Category: Homepage
-      Name: Menus
+    - Category: Accueil
+      Name: Main
+    - Category: Accueil
+      Name: MoreMenu
+    - Category: "Activit\xE9s"
+      Name: "Activit\xE9sdujour"
+    - Category: "Activit\xE9s"
+      Name: AllosDuJour
+    - Category: "Activit\xE9s"
+      Name: "Op\xE9sdujour"
     - Category: None
       Name: None
-    - Category: Popup
-      Name: Alert
-    - Category: Popup
-      Name: YesNo
-    - Category: SplashScreen
-      Name: Main
-    - Category: Survey
-      Name: Age
-    - Category: Survey
-      Name: App
-    - Category: Survey
-      Name: End
-    - Category: Survey
-      Name: Experience
-    - Category: Survey
-      Name: Main
-    - Category: Survey
-      Name: Next
-    - Category: Survey
-      Name: Previous
-    - Category: Survey
-      Name: Send
-    - Category: Survey
-      Name: Suggestion
-    - Category: Survey
-      Name: Top
-    - Category: Survey
-      Name: Visit
+    - Category: Teams
+      Name: AEIREPSOOPE
+    - Category: Teams
+      Name: BDA
+    - Category: Teams
+      Name: BDS
+    - Category: Teams
+      Name: BUREAU
+    - Category: Teams
+      Name: COM
+    - Category: Teams
+      Name: KAWA
+    - Category: Teams
+      Name: OPES
+    - Category: Teams
+      Name: PARTENRARIAT
+    - Category: Teams
+      Name: SOIREE

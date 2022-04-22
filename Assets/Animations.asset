@@ -1,5 +1,135 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8360704112831423714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: d6183a5e-42ce-4f6f-bd82-00fd3ad9c04a
+  NodeType: 0
+  NodeName: Bureau
+  NodeDescription: 
+  InputPorts:
+  - NodeId: d6183a5e-42ce-4f6f-bd82-00fd3ad9c04a
+    PortId: 9292d1a6-b3cd-4ffb-8b30-6f9ddf2f411a
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 151b9a42-013e-4db3-b848-c1c7ca8d2d45
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: d6183a5e-42ce-4f6f-bd82-00fd3ad9c04a
+    PortId: 29e313ee-c3b2-4507-af81-4d92f2026d28
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814.0435, y: -291.99997}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: BUREAU
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: BUREAU
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &-7866831623749025006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: e9dc9c3b-5fc3-4def-a0f4-3702220906b5
+  NodeType: 0
+  NodeName: Allos
+  NodeDescription: 
+  InputPorts:
+  - NodeId: e9dc9c3b-5fc3-4def-a0f4-3702220906b5
+    PortId: 34570bc1-2555-4dd1-b68c-a5f11c8fcd14
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 28a65129-9fba-45fd-87cf-d2e7dff71af5
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: e9dc9c3b-5fc3-4def-a0f4-3702220906b5
+    PortId: 0f293869-c24e-4d08-a034-f060ae446c82
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 703}
+  OnEnterShowViews:
+  - Id:
+      Category: "Activit\xE9s"
+      Name: AllosDuJour
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: "Activit\xE9s"
+      Name: AllosDuJour
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
 --- !u!114 &-4821016947601895656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +182,127 @@ MonoBehaviour:
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     CanBeDeleted: 1
     CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 38be6fd8-c31a-4fbe-b9db-7a4c4bbcccd6
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 8754323d-cdc0-47cc-9ca3-d7dd15b8b2cb
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"AEI","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 151b9a42-013e-4db3-b848-c1c7ca8d2d45
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 9292d1a6-b3cd-4ffb-8b30-6f9ddf2f411a
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"Bureau","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: eea7f2eb-c8e3-4319-ba5b-803aeb5935f2
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - c2c29963-0d17-4e69-8ca0-8a560954282b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"BDA","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: bef3019f-8a1f-41aa-a2f9-212ea66b5021
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 83ea191e-0368-4650-800b-50271d48b4f1
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"BDS","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 6a9163b4-19c0-450b-bc51-6b78dd2a23bc
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 8b4c5541-360a-4589-80be-f00ccec2daea
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"Com","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 6eaac919-f725-405c-935b-02d4be3381e5
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - e605d878-8aff-421e-aeaf-84f56ee8e6f8
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"Kawa","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 42906b91-d1b0-4270-a9e9-65d9463e16e8
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 8285e8d5-a9be-4ef0-a25b-7bdfdcbffe9b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"Soiree","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: a782da1c-2e54-4253-8b20-3dde3bf71d11
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 81733293-fda1-490a-802f-e81d523d38f2
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Teams","Name":"Partenariat","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: d788203e-2281-4bbb-8e18-dd328bbd9795
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - fc07146e-af93-45ff-a97c-1fbcb76e5daa
+    Value: "{\"Trigger\":2,\"TimeDelay\":3.0,\"SignalPayload\":{\"StreamId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"SignalValueType\":0,\"IntegerValue\":0,\"BooleanValue\":false,\"FloatValue\":0.0,\"StringValue\":\"\",\"ColorValue\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.0},\"Vector2Value\":{\"x\":0.0,\"y\":0.0},\"Vector3Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"Vector4Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0}},\"ButtonId\":{\"Category\":\"Activit\xE9s\",\"Name\":\"Activites\",\"Custom\":false},\"ToggleId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"CommandToggle\":2,\"ViewId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"CommandShowHide\":0}"
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 28a65129-9fba-45fd-87cf-d2e7dff71af5
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 34570bc1-2555-4dd1-b68c-a5f11c8fcd14
+    Value: "{\"Trigger\":2,\"TimeDelay\":3.0,\"SignalPayload\":{\"StreamId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"SignalValueType\":0,\"IntegerValue\":0,\"BooleanValue\":false,\"FloatValue\":0.0,\"StringValue\":\"\",\"ColorValue\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.0},\"Vector2Value\":{\"x\":0.0,\"y\":0.0},\"Vector3Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"Vector4Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0}},\"ButtonId\":{\"Category\":\"Activit\xE9s\",\"Name\":\"Allos\",\"Custom\":false},\"ToggleId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"CommandToggle\":2,\"ViewId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"CommandShowHide\":0}"
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
+  - NodeId: 270b5cb8-a003-44bd-a4e6-cdb2cb66b094
+    PortId: 8bb27827-4435-4e86-9834-b100a9e4c47c
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 26d52b53-3bd2-4e40-b1c6-57f436094bbb
+    Value: "{\"Trigger\":2,\"TimeDelay\":3.0,\"SignalPayload\":{\"StreamId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"SignalValueType\":0,\"IntegerValue\":0,\"BooleanValue\":false,\"FloatValue\":0.0,\"StringValue\":\"\",\"ColorValue\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.0},\"Vector2Value\":{\"x\":0.0,\"y\":0.0},\"Vector3Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"Vector4Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0}},\"ButtonId\":{\"Category\":\"Activit\xE9s\",\"Name\":\"KAWAOPES\",\"Custom\":false},\"ToggleId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"CommandToggle\":2,\"ViewId\":{\"Category\":\"None\",\"Name\":\"None\",\"Custom\":false},\"CommandShowHide\":0}"
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 1
+    CanBeReordered: 1
   RunUpdate: 0
   RunFixedUpdate: 0
   RunLateUpdate: 0
@@ -59,19 +310,84 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 495.8076, y: -188.6975}
+  Position: {x: 435.15002, y: -189.00003}
   OnEnterShowViews:
   - Id:
-      Category: Homepage
-      Name: Menus
+      Category: Accueil
+      Name: MoreMenu
       Custom: 0
     Mode: 0
   OnEnterHideViews: []
   OnExitShowViews: []
   OnExitHideViews:
   - Id:
-      Category: Homepage
-      Name: Menus
+      Category: Accueil
+      Name: MoreMenu
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &-2066457152018684613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: bec33abd-1dec-4f16-926f-2f59ff6a2614
+  NodeType: 0
+  NodeName: Partenariat
+  NodeDescription: 
+  InputPorts:
+  - NodeId: bec33abd-1dec-4f16-926f-2f59ff6a2614
+    PortId: 81733293-fda1-490a-802f-e81d523d38f2
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - a782da1c-2e54-4253-8b20-3dde3bf71d11
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: bec33abd-1dec-4f16-926f-2f59ff6a2614
+    PortId: 6d923621-0193-421f-ab28-54831f17f85f
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 443.89563}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: PARTENRARIAT
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: PARTENRARIAT
       Custom: 0
     Mode: 0
   OnEnterHideAllViews: 0
@@ -96,8 +412,474 @@ MonoBehaviour:
   - {fileID: 7171520459237813119}
   - {fileID: 8012522998912234169}
   - {fileID: -4821016947601895656}
+  - {fileID: 4612391838123627293}
+  - {fileID: -8360704112831423714}
+  - {fileID: 8210593973883048377}
+  - {fileID: 2258731204938838126}
+  - {fileID: 3929587408700977384}
+  - {fileID: 5712167801256945363}
+  - {fileID: 3079788559763619834}
+  - {fileID: -2066457152018684613}
+  - {fileID: 3048607385469810949}
+  - {fileID: -7866831623749025006}
+  - {fileID: 6269065878627421518}
   RootNode: {fileID: 7171520459237813119}
   ActiveNode: {fileID: 0}
+--- !u!114 &2258731204938838126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: 307f2db8-8530-4e89-b092-8771e3cc6c3e
+  NodeType: 0
+  NodeName: BDS
+  NodeDescription: 
+  InputPorts:
+  - NodeId: 307f2db8-8530-4e89-b092-8771e3cc6c3e
+    PortId: 83ea191e-0368-4650-800b-50271d48b4f1
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - bef3019f-8a1f-41aa-a2f9-212ea66b5021
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: 307f2db8-8530-4e89-b092-8771e3cc6c3e
+    PortId: 1e68bce2-5a13-49bf-8a9d-c0bbec937a05
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: -38}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: BDS
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: BDS
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &3048607385469810949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: 4203411e-ba0f-4787-93ca-14101cda04ed
+  NodeType: 0
+  NodeName: "Activit\xE9s"
+  NodeDescription: 
+  InputPorts:
+  - NodeId: 4203411e-ba0f-4787-93ca-14101cda04ed
+    PortId: fc07146e-af93-45ff-a97c-1fbcb76e5daa
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - d788203e-2281-4bbb-8e18-dd328bbd9795
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: 4203411e-ba0f-4787-93ca-14101cda04ed
+    PortId: e511b6e8-b9f0-4573-9dd4-f3dbfea1088b
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 576}
+  OnEnterShowViews:
+  - Id:
+      Category: "Activit\xE9s"
+      Name: "Activit\xE9sdujour"
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: "Activit\xE9s"
+      Name: "Activit\xE9sdujour"
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &3079788559763619834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: cea51f43-d31d-4156-ae05-3e97cc1fc2d3
+  NodeType: 0
+  NodeName: Soiree
+  NodeDescription: 
+  InputPorts:
+  - NodeId: cea51f43-d31d-4156-ae05-3e97cc1fc2d3
+    PortId: 8285e8d5-a9be-4ef0-a25b-7bdfdcbffe9b
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 42906b91-d1b0-4270-a9e9-65d9463e16e8
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: cea51f43-d31d-4156-ae05-3e97cc1fc2d3
+    PortId: 3b1c8f10-1a8f-43a0-8e6b-1103e7b579e4
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 329.08704}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: SOIREE
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: SOIREE
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &3929587408700977384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: cc46438d-5e7f-4d32-aa40-75b50cfa0c59
+  NodeType: 0
+  NodeName: Com
+  NodeDescription: 
+  InputPorts:
+  - NodeId: cc46438d-5e7f-4d32-aa40-75b50cfa0c59
+    PortId: 8b4c5541-360a-4589-80be-f00ccec2daea
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 6a9163b4-19c0-450b-bc51-6b78dd2a23bc
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: cc46438d-5e7f-4d32-aa40-75b50cfa0c59
+    PortId: 6edf25b3-9c3d-4b33-aceb-7826827e72bd
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 79}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: COM
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: COM
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &4612391838123627293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: 25c21d84-4937-4ee3-8675-dc6b19ba5f22
+  NodeType: 0
+  NodeName: AEI
+  NodeDescription: 
+  InputPorts:
+  - NodeId: 25c21d84-4937-4ee3-8675-dc6b19ba5f22
+    PortId: 8754323d-cdc0-47cc-9ca3-d7dd15b8b2cb
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 38be6fd8-c31a-4fbe-b9db-7a4c4bbcccd6
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: 25c21d84-4937-4ee3-8675-dc6b19ba5f22
+    PortId: f2031374-bda0-4872-bea7-06964989a92e
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 821.1896, y: -452}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: AEIREPSOOPE
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: AEIREPSOOPE
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &5712167801256945363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: 48d4a698-6d11-406c-98f9-7c367c9ee9aa
+  NodeType: 0
+  NodeName: KAWA
+  NodeDescription: 
+  InputPorts:
+  - NodeId: 48d4a698-6d11-406c-98f9-7c367c9ee9aa
+    PortId: e605d878-8aff-421e-aeaf-84f56ee8e6f8
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 6eaac919-f725-405c-935b-02d4be3381e5
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: 48d4a698-6d11-406c-98f9-7c367c9ee9aa
+    PortId: 8114d58a-5e61-489e-b1b2-fec12ac1460f
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 199}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: KAWA
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: KAWA
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &6269065878627421518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: 2e6d9332-d49e-4c28-90e6-49d510df9380
+  NodeType: 0
+  NodeName: KAWA/OPES
+  NodeDescription: 
+  InputPorts:
+  - NodeId: 2e6d9332-d49e-4c28-90e6-49d510df9380
+    PortId: 26d52b53-3bd2-4e40-b1c6-57f436094bbb
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - 8bb27827-4435-4e86-9834-b100a9e4c47c
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: 2e6d9332-d49e-4c28-90e6-49d510df9380
+    PortId: 4b8c1116-5088-4f5e-b30b-70eb5c732e5c
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: 827.84}
+  OnEnterShowViews:
+  - Id:
+      Category: "Activit\xE9s"
+      Name: "Op\xE9sdujour"
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: "Activit\xE9s"
+      Name: "Op\xE9sdujour"
+      Custom: 0
+    Mode: 0
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
 --- !u!114 &7171520459237813119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +944,17 @@ MonoBehaviour:
     - 7def073a-3c8a-4dcb-aca8-ae8dc361a142
     - 6efc099d-96ca-401c-bcce-71b3ce2434ea
     - 361256e4-4f27-4e57-b711-77d0c0c230c9
+    - f2031374-bda0-4872-bea7-06964989a92e
+    - 29e313ee-c3b2-4507-af81-4d92f2026d28
+    - 3e94c90f-8f7a-46ae-aab4-f3af3cf9a926
+    - 1e68bce2-5a13-49bf-8a9d-c0bbec937a05
+    - 6edf25b3-9c3d-4b33-aceb-7826827e72bd
+    - 8114d58a-5e61-489e-b1b2-fec12ac1460f
+    - 3b1c8f10-1a8f-43a0-8e6b-1103e7b579e4
+    - 6d923621-0193-421f-ab28-54831f17f85f
+    - e511b6e8-b9f0-4573-9dd4-f3dbfea1088b
+    - 0f293869-c24e-4d08-a034-f060ae446c82
+    - 4b8c1116-5088-4f5e-b30b-70eb5c732e5c
     Value: '{"CanGoBack":false}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -174,7 +967,7 @@ MonoBehaviour:
     Capacity: 0
     Connections:
     - a505a5a8-c31c-4903-89aa-ee0bb4377880
-    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"MoreMenu","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Accueil","Name":"MoreMenu","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     CanBeDeleted: 0
@@ -186,15 +979,80 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 198.32257, y: 0.00006515503}
+  Position: {x: 162.37953, y: -189.00006}
   OnEnterShowViews:
   - Id:
-      Category: Homepage
-      Name: 1stPage
+      Category: Accueil
+      Name: Main
       Custom: 0
     Mode: 1
   OnEnterHideViews: []
   OnExitShowViews: []
   OnExitHideViews: []
+  OnEnterHideAllViews: 0
+  OnExitHideAllViews: 0
+--- !u!114 &8210593973883048377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c01f9a7d07f5c04a9f277379e94a10b, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  FlowGraphId: bc057d7d-e0e5-4fec-909b-59f6c7b3f058
+  NodeId: 7be08062-e0f7-4fdc-9c6a-8b302a22488e
+  NodeType: 0
+  NodeName: BDA
+  NodeDescription: 
+  InputPorts:
+  - NodeId: 7be08062-e0f7-4fdc-9c6a-8b302a22488e
+    PortId: c2c29963-0d17-4e69-8ca0-8a560954282b
+    Direction: 0
+    Capacity: 1
+    Connections:
+    - eea7f2eb-c8e3-4319-ba5b-803aeb5935f2
+    Value: '{"CanGoBack":false}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  OutputPorts:
+  - NodeId: 7be08062-e0f7-4fdc-9c6a-8b302a22488e
+    PortId: 3e94c90f-8f7a-46ae-aab4-f3af3cf9a926
+    Direction: 1
+    Capacity: 0
+    Connections:
+    - 43cff144-b8e8-4da0-81ae-0951dea5164b
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"Homepage","Name":"Close","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
+      DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    CanBeDeleted: 0
+    CanBeReordered: 0
+  RunUpdate: 0
+  RunFixedUpdate: 0
+  RunLateUpdate: 0
+  NodeState: 0
+  CanBeDeleted: 1
+  Passthrough: 0
+  ClearGraphHistory: 0
+  Position: {x: 814, y: -160}
+  OnEnterShowViews:
+  - Id:
+      Category: Teams
+      Name: BDA
+      Custom: 0
+    Mode: 0
+  OnEnterHideViews: []
+  OnExitShowViews: []
+  OnExitHideViews:
+  - Id:
+      Category: Teams
+      Name: BDA
+      Custom: 0
+    Mode: 0
   OnEnterHideAllViews: 0
   OnExitHideAllViews: 0
